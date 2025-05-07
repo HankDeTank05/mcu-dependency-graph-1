@@ -1,0 +1,163 @@
+// MCU Dependency Graph
+digraph "mcu-graph" {
+	"Iron Man"
+	"The
+Incredible
+Hulk"
+	"Iron Man 2"
+	Thor
+	"Captain America
+The First Avenger"
+	"The Avengers"
+	"Iron Man 3"
+	"Thor
+The Dark World"
+	"Captain America
+The Winter Soldier"
+	"Guardians
+of the
+Galaxy"
+	"Avengers
+Age of Ultron"
+	"Ant-Man"
+	"Captain America
+Civil War"
+	"Doctor Strange"
+	"Guardians
+of the
+Galaxy
+vol. 2"
+	"Spider-Man
+Homecoming"
+	"Thor
+Ragnarok"
+	"Black Panther"
+	"Avengers
+Infinity War"
+	"Ant-Man
+and the Wasp"
+	"Captain Marvel"
+	"Avengers
+Endgame"
+	"Spider-Man
+Far From Home"
+	edge [style=solid]
+	"Iron Man" -> "Iron Man 2"
+	edge [style=dashed]
+	"Iron Man 2" -> "The
+Incredible
+Hulk"
+	edge [style=dashed]
+	"Iron Man 2" -> Thor
+	edge [style=solid]
+	"Iron Man 2" -> "The Avengers"
+	edge [style=solid]
+	"Captain America
+The First Avenger" -> "The Avengers"
+	edge [style=solid]
+	Thor -> "The Avengers"
+	edge [style=solid]
+	"The
+Incredible
+Hulk" -> "The Avengers"
+	edge [style=solid]
+	"The Avengers" -> "Iron Man 3"
+	edge [style=solid]
+	"The Avengers" -> "Thor
+The Dark World"
+	edge [style=solid]
+	"The Avengers" -> "Captain America
+The Winter Soldier"
+	edge [style=solid]
+	"Iron Man 3" -> "Avengers
+Age of Ultron"
+	edge [style=solid]
+	"Thor
+The Dark World" -> "Avengers
+Age of Ultron"
+	edge [style=solid]
+	"Captain America
+The Winter Soldier" -> "Avengers
+Age of Ultron"
+	edge [style=dashed]
+	"Avengers
+Age of Ultron" -> "Ant-Man"
+	edge [style=dashed]
+	"Captain America
+The Winter Soldier" -> "Ant-Man"
+	edge [style=dashed]
+	"Thor
+The Dark World" -> "Guardians
+of the
+Galaxy"
+	edge [style=dashed]
+	"Ant-Man" -> "Captain America
+Civil War"
+	edge [style=solid]
+	"Guardians
+of the
+Galaxy" -> "Guardians
+of the
+Galaxy
+vol. 2"
+	edge [style=solid]
+	"Avengers
+Age of Ultron" -> "Thor
+Ragnarok"
+	edge [style=solid]
+	"Avengers
+Age of Ultron" -> "Captain America
+Civil War"
+	edge [style=solid]
+	"Captain America
+Civil War" -> "Spider-Man
+Homecoming"
+	edge [style=solid]
+	"Captain America
+Civil War" -> "Black Panther"
+	edge [style=solid]
+	"Captain America
+Civil War" -> "Ant-Man
+and the Wasp"
+	edge [style=dashed]
+	"Doctor Strange" -> "Thor
+Ragnarok"
+	edge [style=solid]
+	"Guardians
+of the
+Galaxy
+vol. 2" -> "Avengers
+Infinity War"
+	edge [style=solid]
+	"Thor
+Ragnarok" -> "Avengers
+Infinity War"
+	edge [style=solid]
+	"Spider-Man
+Homecoming" -> "Avengers
+Infinity War"
+	edge [style=solid]
+	"Black Panther" -> "Avengers
+Infinity War"
+	edge [style=solid]
+	"Doctor Strange" -> "Avengers
+Infinity War"
+	edge [style=solid]
+	"Avengers
+Infinity War" -> "Avengers
+Endgame"
+	edge [style=solid]
+	"Ant-Man
+and the Wasp" -> "Avengers
+Endgame"
+	edge [style=dashed]
+	"Captain Marvel" -> "Avengers
+Endgame"
+	edge [style=solid]
+	"Avengers
+Endgame" -> "Spider-Man
+Far From Home"
+	edge [style=solid]
+	"Captain America
+Civil War" -> "Black Widow"
+}
