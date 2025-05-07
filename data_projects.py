@@ -13,7 +13,7 @@ import data_characters as cdata
 
 # phase 1
 
-im1: p.Movie = p.Movie("Iron Man", datetime.date(2008, 5, 2))
+im1 = p.Movie("Iron Man", datetime.date(2008, 5, 2))
 im1.add_character(p.CHAR_MAIN, cdata.tony)
 im1.add_character(p.CHAR_SECONDARY, cdata.vision)
 im1.add_character(p.CHAR_SECONDARY, cdata.rhodey)
@@ -22,7 +22,7 @@ im1.add_character(p.CHAR_SECONDARY, cdata.pepper)
 im1.add_character(p.CHAR_SECONDARY, cdata.yinsen)
 im1.add_character(p.CHAR_CAMEO, cdata.fury)
 
-hulk: p.Movie = p.Movie("The\nIncredible\nHulk",
+hulk = p.Movie("The\nIncredible\nHulk",
 								   release_date=datetime.date(2008, 6, 13),
 								   timeline_placement=datetime.date(2010, 6, 13)) # happens after iron man 2
 hulk.add_character(p.CHAR_MAIN, cdata.hulk)
@@ -32,7 +32,7 @@ hulk.add_character(p.CHAR_SECONDARY, cdata.abomination)
 hulk.add_character(p.CHAR_SECONDARY, cdata.leader)
 hulk.add_character(p.CHAR_CAMEO, cdata.tony)
 
-im2: p.Movie = p.Movie("Iron Man 2",
+im2 = p.Movie("Iron Man 2",
 					   release_date=datetime.date(2010, 5, 7),
 					   timeline_placement=datetime.date(2009, 5, 7)) # happens before incredible hulk
 im2.add_character(p.CHAR_MAIN, cdata.tony)
@@ -43,7 +43,7 @@ im2.add_character(p.CHAR_SECONDARY, cdata.widow)
 im2.add_character(p.CHAR_SECONDARY, cdata.fury)
 # TODO: add post-credits scene characters
 
-thor1: p.Movie = p.Movie("Thor", datetime.date(2011, 5, 6))
+thor1 = p.Movie("Thor", datetime.date(2011, 5, 6))
 thor1.add_character(p.CHAR_MAIN, cdata.thor)
 thor1.add_character(p.CHAR_MAIN, cdata.loki)
 thor1.add_character(p.CHAR_SECONDARY, cdata.odin)
@@ -52,7 +52,7 @@ thor1.add_character(p.CHAR_SECONDARY, cdata.heimdall)
 thor1.add_character(p.CHAR_SECONDARY, cdata.sif)
 # TODO: add post-credits scene characters
 
-cap1: p.Movie = p.Movie("Captain America\nThe First Avenger",
+cap1 = p.Movie("Captain America\nThe First Avenger",
 						release_date=datetime.date(2011, 7, 22),
 						timeline_placement=datetime.date(1940, 1, 1)) # TODO: figure out when in the 1940s this takes place
 cap1.add_character(p.CHAR_MAIN, cdata.cap)
@@ -64,7 +64,7 @@ cap1.add_character(p.CHAR_SECONDARY, cdata.howard)
 cap1.add_character(p.CHAR_CAMEO, cdata.fury)
 # NOTE: not counting post-credits scene characters here since it's literally just a trailer for Avengers
 
-avengers: p.Movie = p.Movie("The Avengers", datetime.date(2012, 5, 4))
+avengers = p.Movie("The Avengers", datetime.date(2012, 5, 4))
 avengers.add_character(p.CHAR_MAIN, cdata.tony)
 avengers.add_character(p.CHAR_SECONDARY, cdata.vision)
 avengers.add_character(p.CHAR_MAIN, cdata.cap)
@@ -84,7 +84,7 @@ avengers.add_character(p.CHAR_CAMEO, cdata.thanos)
 
 # phase 2
 
-im3: p.Movie = p.Movie("Iron Man 3", datetime.date(2013, 5, 3))
+im3 = p.Movie("Iron Man 3", datetime.date(2013, 5, 3))
 im3.add_character(p.CHAR_MAIN, cdata.tony)
 im3.add_character(p.CHAR_SECONDARY, cdata.vision)
 im3.add_character(p.CHAR_SECONDARY, cdata.rhodey)
@@ -94,120 +94,120 @@ im3.add_character(p.CHAR_CAMEO, cdata.hulk)
 # NOTE: according to the D+ MCU timeline, thor 2 happens before iron man 3
 # NOTE: but since these movies don't share any characters, idgaf about timeline
 
-thor2: p.Movie = p.Movie("Thor\nThe Dark World", datetime.date(2013, 11, 8))
+thor2 = p.Movie("Thor\nThe Dark World", datetime.date(2013, 11, 8))
 # TODO: add characters to thor2
 
-cap2: p.Movie = p.Movie("Captain America\nThe Winter Soldier", datetime.date(2014, 4, 4))
+cap2 = p.Movie("Captain America\nThe Winter Soldier", datetime.date(2014, 4, 4))
 # TODO: add characters to cap2
 
-guardians1: p.Movie = p.Movie("Guardians\nof the\nGalaxy", datetime.date(2014, 8, 1))
+guardians1 = p.Movie("Guardians\nof the\nGalaxy", datetime.date(2014, 8, 1))
 # TODO: add characters to guardians1
 
-age_of_ultron: p.Movie = p.Movie("Avengers\nAge of Ultron", datetime.date(2015, 5, 1))
+age_of_ultron = p.Movie("Avengers\nAge of Ultron", datetime.date(2015, 5, 1))
 # TODO: add characters to age of ultron
 
-am1: p.Movie = p.Movie("Ant-Man", datetime.date(2015, 7, 17))
+am1 = p.Movie("Ant-Man", datetime.date(2015, 7, 17))
 # TODO: add characters to antman
 
 # phase 3
 
-civil_war: p.Movie = p.Movie("Captain America\nCivil War", datetime.date(2016, 5, 6))
+civil_war = p.Movie("Captain America\nCivil War", datetime.date(2016, 5, 6))
 # TODO: add characters to civil war
 
-ds1: p.Movie = p.Movie("Doctor Strange", datetime.date(2016, 11, 4))
+ds1 = p.Movie("Doctor Strange", datetime.date(2016, 11, 4))
 # TODO: add characters to ds1
 
-guardians2: p.Movie = p.Movie("Guardians\nof the\nGalaxy\nvol. 2",
+guardians2 = p.Movie("Guardians\nof the\nGalaxy\nvol. 2",
 							  release_date=datetime.date(2017, 5, 7),
 							  timeline_placement=datetime.date(2014, 11, 1)) # takes place a few months after guardians 1
 # TODO: add characters to guardians2
 
-spidey_home1: p.Movie = p.Movie("Spider-Man\nHomecoming", datetime.date(2017, 7, 7))
+spidey_home1 = p.Movie("Spider-Man\nHomecoming", datetime.date(2017, 7, 7))
 # TODO: add characters to spiderman homecoming
 
-thor3: p.Movie = p.Movie("Thor\nRagnarok", datetime.date(2017, 11, 3))
+thor3 = p.Movie("Thor\nRagnarok", datetime.date(2017, 11, 3))
 # TODO: add characters to thor3
 
-bp1: p.Movie = p.Movie("Black Panther", datetime.date(2018, 2, 16))
+bp1 = p.Movie("Black Panther", datetime.date(2018, 2, 16))
 # TODO: add characters to bp1
 
-infinity_war: p.Movie = p.Movie("Avengers\nInfinity War", datetime.date(2018, 4, 27))
+infinity_war = p.Movie("Avengers\nInfinity War", datetime.date(2018, 4, 27))
 # TODO: add characters to infinity war
 
-am2: p.Movie = p.Movie("Ant-Man\nand the Wasp",
+am2 = p.Movie("Ant-Man\nand the Wasp",
 					   release_date=datetime.date(2018, 7, 6),
 					   timeline_placement=datetime.date(2018, 4, 1))
 # TODO: add characters to antman and the wasp
 
-cm: p.Movie = p.Movie("Captain Marvel",
+cm = p.Movie("Captain Marvel",
 					  release_date=datetime.date(2019, 3, 8),
 					  timeline_placement=datetime.date(1995, 1, 1))
 # TODO: add characters to captain marvel
 
-endgame: p.Movie = p.Movie("Avengers\nEndgame",
+endgame = p.Movie("Avengers\nEndgame",
 						   release_date=datetime.date(2019, 4, 26),
 						   timeline_placement=datetime.date(2023, 4, 26))
 # TODO: add characters to endgame
 
-spidey_home2: p.Movie = p.Movie("Spider-Man\nFar From Home",
+spidey_home2 = p.Movie("Spider-Man\nFar From Home",
 								release_date=datetime.date(2019, 7, 2),
 								timeline_placement=datetime.date(2023, 7, 2))
 # TODO: add characters to spiderman far from home
 
 # phase 4
-bw: p.Movie = p.Movie("Black Widow", datetime.date(2021, 7, 9))
+bw = p.Movie("Black Widow", datetime.date(2021, 7, 9))
 # TODO: add characters to black widow
 
-# TODO: add shang chi
+shang_chi = p.Movie("Shang-Chi\nand the\nLegend of the Ten Rings", datetime.date(2021, 9, 3))
 # TODO: add characters to shang chi
 
-# TODO: add eternals
+eternals = p.Movie("Eternals", datetime.date(2021, 11, 5))
 # TODO: add characters to eternals
 
-# TODO: add no way home
+spidey_home3 = p.Movie("Spider-Man\nNo Way Home", datetime.date(2021, 12, 17))
 # TODO: add characters to no way home
 
-# TODO: add dsmom
+ds2 = p.Movie("Doctor Strange\nin the\nMultiverse of Madness", datetime.date(2022, 5, 6))
 # TODO: add characters to dsmom
 
-# TODO: add thor4
+thor4 = p.Movie("Thor\nLove and Thunder", datetime.date(2022, 7, 8))
 # TODO: add characters to thor4
 
-# TODO: add wakanda forever
+bp2 = p.Movie("Black Panther\nWakanda Forever", datetime.date(2022, 11, 11))
 # TODO: add characters to wakanda forever
 
 # phase 5
 
-# TODO: add quantumania
+am3 = p.Movie("Ant-Man and the Wasp\nQuantumania", datetime.date(2023, 2, 17))
 # TODO: add characters to quantumania
 
-# TODO: add guardians3
+guardians3 = p.Movie("Guardians\nof the\nGalaxy\nvol. 3", datetime.date(2023, 5, 5))
 # TODO: add characters to guardians3
 
-# TODO: add the marvels
+marvels = p.Movie("The Marvels", datetime.date(2023, 11, 10))
 # TODO: add characters to the marvels
 
-# TODO: add dp&wolverine
+dp_n_wolv = p.Movie("Deadpool & Wolverine", datetime.date(2024, 7, 6))
 # TODO: add characters to dp&wolverine
 
-# TODO: add cap4
+cap4 = p.Movie("Captain America\nBrave New World", datetime.date(2025, 2, 14))
 # TODO: add characters to cap4
 
-# TODO: add thunderbolts
+tbolts = p.Movie("Thunderbolts*", datetime.date(2025, 5, 2))
 # TODO: add characters to thunderbolts
 
 # phase 6
 
-# TODO: add f4
+f4 = p.Movie("The Fantastic 4\nFirst Steps", datetime.date(2025, 7, 25))
 # TODO: add characters to f4
 
-# TODO: add doomsday
+doomsday = p.Movie("Avengers\nDoomsday", datetime.date(2026, 5, 1))
 # TODO: add characters to doomsday
 
-# TODO: add spiderman brand new day
+spidey_bnd = p.Movie("Spider-Man\nBrand New Day", datetime.date(2026, 7, 31))
 # TODO: add characters to brand new day
 
-# TODO: add secret wars
+secret_wars = p.Movie("Avengers\nSecret Wars", datetime.date(2027, 5, 7))
 # TODO: add characters to secret wars
 
 # netflix
@@ -323,5 +323,11 @@ projects: list[p.Project] = [
 	# phase 2
 	im3, thor2, cap2, guardians1, age_of_ultron, am1,
 	# phase 3
-	civil_war, ds1, guardians2, spidey_home1, thor3, bp1, infinity_war, am2, cm, endgame, spidey_home2
+	civil_war, ds1, guardians2, spidey_home1, thor3, bp1, infinity_war, am2, cm, endgame, spidey_home2,
+	# phase 4
+	bw, shang_chi, eternals, spidey_home3, ds2, thor4, bp2,
+	# phase 5
+	am3, guardians3, marvels, dp_n_wolv, cap4, tbolts,
+	# phase 6
+	f4, doomsday, spidey_bnd, secret_wars
 ]

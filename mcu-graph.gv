@@ -41,6 +41,39 @@ and the Wasp"
 Endgame"
 	"Spider-Man
 Far From Home"
+	"Black Widow"
+	"Shang-Chi
+and the
+Legend of the Ten Rings"
+	Eternals
+	"Spider-Man
+No Way Home"
+	"Doctor Strange
+in the
+Multiverse of Madness"
+	"Thor
+Love and Thunder"
+	"Black Panther
+Wakanda Forever"
+	"Ant-Man and the Wasp
+Quantumania"
+	"Guardians
+of the
+Galaxy
+vol. 3"
+	"The Marvels"
+	"Deadpool & Wolverine"
+	"Captain America
+Brave New World"
+	"Thunderbolts*"
+	"The Fantastic 4
+First Steps"
+	"Avengers
+Doomsday"
+	"Spider-Man
+Brand New Day"
+	"Avengers
+Secret Wars"
 	edge [style=solid]
 	"Iron Man" -> "Iron Man 2"
 	edge [style=dashed]
@@ -157,7 +190,56 @@ Endgame"
 	"Avengers
 Endgame" -> "Spider-Man
 Far From Home"
+	edge [style=dashed]
+	"Avengers
+Endgame" -> Eternals
+	edge [style=solid]
+	"Avengers
+Endgame" -> "Thor
+Love and Thunder"
+	edge [style=solid]
+	"Avengers
+Endgame" -> "Black Panther
+Wakanda Forever"
+	edge [style=dashed]
+	"Avengers
+Endgame" -> "Ant-Man and the Wasp
+Quantumania"
+	edge [style=solid]
+	"Avengers
+Endgame" -> "Guardians
+of the
+Galaxy
+vol. 3"
+	edge [style=dashed]
+	"Avengers
+Endgame" -> "The Marvels"
 	edge [style=solid]
 	"Captain America
 Civil War" -> "Black Widow"
+	edge [style=dashed]
+	"The
+Incredible
+Hulk" -> "Shang-Chi
+and the
+Legend of the Ten Rings"
+	edge [style=dashed]
+	"Doctor Strange" -> "Shang-Chi
+and the
+Legend of the Ten Rings"
+	edge [style=solid]
+	"Iron Man 3" -> "Shang-Chi
+and the
+Legend of the Ten Rings"
+	edge [style=solid]
+	"Spider-Man
+Far From Home" -> "Spider-Man
+No Way Home"
+	edge [style=dashed]
+	"Spider-Man
+No Way Home" -> "Doctor Strange
+in the
+Multiverse of Madness"
+	edge [style=solid]
+	"Black Widow" -> "Thunderbolts*"
 }

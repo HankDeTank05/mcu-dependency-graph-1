@@ -53,11 +53,25 @@ dependencies: list[d.Dependency] = [
 
 	# endgame -> ???
 	d.Dependency(pdata.endgame, pdata.spidey_home2, d.DEP_STRONG),
+	d.Dependency(pdata.endgame, pdata.eternals, d.DEP_WEAK),
+	d.Dependency(pdata.endgame, pdata.thor4, d.DEP_STRONG),
+	d.Dependency(pdata.endgame, pdata.bp2, d.DEP_STRONG),
+	d.Dependency(pdata.endgame, pdata.am3, d.DEP_WEAK),
+	d.Dependency(pdata.endgame, pdata.guardians3, d.DEP_STRONG),
+	d.Dependency(pdata.endgame, pdata.marvels, d.DEP_WEAK),
 
-	# ph3 -> ph4
-	d.Dependency(pdata.civil_war, pdata.bw, d.DEP_STRONG)
+	# ??? -> ph4
+	d.Dependency(pdata.civil_war, pdata.bw, d.DEP_STRONG),
+	d.Dependency(pdata.hulk, pdata.shang_chi, d.DEP_WEAK),
+	d.Dependency(pdata.ds1, pdata.shang_chi, d.DEP_WEAK),
+	d.Dependency(pdata.im3, pdata.shang_chi, d.DEP_STRONG),
+	d.Dependency(pdata.spidey_home2, pdata.spidey_home3, d.DEP_STRONG),
 
 	# ph4 internal
-	# ph4 -> ph5
+	d.Dependency(pdata.spidey_home3, pdata.ds2, d.DEP_WEAK),
+
+	# ??? -> ph5
+	d.Dependency(pdata.bw, pdata.tbolts, d.DEP_STRONG)
+
 	# ph5 internal
 ]
