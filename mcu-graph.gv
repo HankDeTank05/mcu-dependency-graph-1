@@ -74,6 +74,31 @@ Doomsday"
 Brand New Day"
 	"Avengers
 Secret Wars"
+	"WandaVision S1"
+	"The Falcon
+ and the
+Winter Soldier S1"
+	"Loki S1"
+	"What If...? S1"
+	"Hawkeye S1"
+	"Moon Knight S1"
+	"Ms. Marvel S1"
+	"She-Hulk
+Attorney at Law S1"
+	"Secret Invasion S1"
+	"Loki S2"
+	"What If...? S2"
+	"What If...? S3"
+	"Echo S1"
+	"Agatha All Along S1"
+	"Your Friendly
+Neighborhood
+Spider-Man S1"
+	"Daredevil
+Born Again S1"
+	"Ironheart S1"
+	"Eyes of Wakanda S1"
+	"Marvel Zombies S1"
 	edge [style=solid]
 	"Iron Man" -> "Iron Man 2"
 	edge [style=dashed]
@@ -82,6 +107,9 @@ Incredible
 Hulk"
 	edge [style=dashed]
 	"Iron Man 2" -> Thor
+	edge [style=dashed]
+	"Captain America
+The First Avenger" -> "Iron Man 2"
 	edge [style=solid]
 	"Iron Man 2" -> "The Avengers"
 	edge [style=solid]
@@ -123,9 +151,27 @@ The Winter Soldier" -> "Ant-Man"
 The Dark World" -> "Guardians
 of the
 Galaxy"
+	edge [style=solid]
+	"Captain America
+Civil War" -> "Spider-Man
+Far From Home"
 	edge [style=dashed]
 	"Ant-Man" -> "Captain America
 Civil War"
+	edge [style=solid]
+	"Captain America
+The Winter Soldier" -> "Captain America
+Civil War"
+	edge [style=dashed]
+	"The Avengers" -> "Captain America
+Civil War"
+	edge [style=solid]
+	"Avengers
+Age of Ultron" -> "Captain America
+Civil War"
+	edge [style=solid]
+	"The Avengers" -> "Spider-Man
+Homecoming"
 	edge [style=solid]
 	"Guardians
 of the
@@ -138,9 +184,8 @@ vol. 2"
 Age of Ultron" -> "Thor
 Ragnarok"
 	edge [style=solid]
-	"Avengers
-Age of Ultron" -> "Captain America
-Civil War"
+	"Ant-Man" -> "Ant-Man
+and the Wasp"
 	edge [style=solid]
 	"Captain America
 Civil War" -> "Spider-Man
@@ -155,6 +200,12 @@ and the Wasp"
 	edge [style=dashed]
 	"Doctor Strange" -> "Thor
 Ragnarok"
+	edge [style=dashed]
+	"Captain Marvel" -> "Spider-Man
+Far From Home"
+	edge [style=dashed]
+	"Avengers
+Infinity War" -> "Captain Marvel"
 	edge [style=solid]
 	"Guardians
 of the
@@ -215,6 +266,41 @@ vol. 3"
 	"Avengers
 Endgame" -> "The Marvels"
 	edge [style=solid]
+	"Avengers
+Endgame" -> "WandaVision S1"
+	edge [style=solid]
+	"Avengers
+Endgame" -> "The Falcon
+ and the
+Winter Soldier S1"
+	edge [style=solid]
+	"Avengers
+Endgame" -> "Loki S1"
+	edge [style=solid]
+	"Avengers
+Endgame" -> "Hawkeye S1"
+	edge [style=dashed]
+	"Avengers
+Endgame" -> "Secret Invasion S1"
+	edge [style=solid]
+	"Avengers
+Endgame" -> "Doctor Strange
+in the
+Multiverse of Madness"
+	edge [style=solid]
+	"Avengers
+Endgame" -> "Ant-Man and the Wasp
+Quantumania"
+	edge [style=solid]
+	"Avengers
+Endgame" -> "She-Hulk
+Attorney at Law S1"
+	edge [style=dashed]
+	"Avengers
+Endgame" -> "Shang-Chi
+and the
+Legend of the Ten Rings"
+	edge [style=solid]
 	"Captain America
 Civil War" -> "Black Widow"
 	edge [style=dashed]
@@ -235,11 +321,136 @@ Legend of the Ten Rings"
 	"Spider-Man
 Far From Home" -> "Spider-Man
 No Way Home"
+	edge [style=solid]
+	"The
+Incredible
+Hulk" -> "She-Hulk
+Attorney at Law S1"
+	edge [style=dashed]
+	"Captain Marvel" -> "Shang-Chi
+and the
+Legend of the Ten Rings"
 	edge [style=dashed]
 	"Spider-Man
 No Way Home" -> "Doctor Strange
 in the
 Multiverse of Madness"
+	edge [style=dashed]
+	"Black Widow" -> "The Falcon
+ and the
+Winter Soldier S1"
+	edge [style=dashed]
+	"The Falcon
+ and the
+Winter Soldier S1" -> "Black Widow"
+	edge [style=solid]
+	"WandaVision S1" -> "Doctor Strange
+in the
+Multiverse of Madness"
+	edge [style=dashed]
+	"Shang-Chi
+and the
+Legend of the Ten Rings" -> "She-Hulk
+Attorney at Law S1"
 	edge [style=solid]
 	"Black Widow" -> "Thunderbolts*"
+	edge [style=solid]
+	"Ms. Marvel S1" -> "The Marvels"
+	edge [style=solid]
+	"WandaVision S1" -> "The Marvels"
+	edge [style=dashed]
+	"Hawkeye S1" -> "The Marvels"
+	edge [style=solid]
+	"Captain Marvel" -> "Secret Invasion S1"
+	edge [style=solid]
+	"Loki S1" -> "Loki S2"
+	edge [style=solid]
+	"Loki S1" -> "Ant-Man and the Wasp
+Quantumania"
+	edge [style=solid]
+	"What If...? S1" -> "What If...? S2"
+	edge [style=solid]
+	"Hawkeye S1" -> "Echo S1"
+	edge [style=solid]
+	"Loki S1" -> "Deadpool & Wolverine"
+	edge [style=dashed]
+	"Ant-Man
+and the Wasp" -> "Thunderbolts*"
+	edge [style=solid]
+	"The Falcon
+ and the
+Winter Soldier S1" -> "Thunderbolts*"
+	edge [style=dashed]
+	"Spider-Man
+No Way Home" -> "Echo S1"
+	edge [style=dashed]
+	"Spider-Man
+No Way Home" -> "Daredevil
+Born Again S1"
+	edge [style=solid]
+	"Captain Marvel" -> "The Marvels"
+	edge [style=solid]
+	"The Falcon
+ and the
+Winter Soldier S1" -> "Captain America
+Brave New World"
+	edge [style=solid]
+	"WandaVision S1" -> "Agatha All Along S1"
+	edge [style=solid]
+	"The
+Incredible
+Hulk" -> "Captain America
+Brave New World"
+	edge [style=solid]
+	"What If...? S2" -> "What If...? S3"
+	edge [style=solid]
+	"Echo S1" -> "Daredevil
+Born Again S1"
+	edge [style=dashed]
+	"Loki S2" -> "Deadpool & Wolverine"
+	edge [style=solid]
+	"Spider-Man
+No Way Home" -> "Spider-Man
+Brand New Day"
+	edge [style=dashed]
+	"Thunderbolts*" -> "The Fantastic 4
+First Steps"
+	edge [style=solid]
+	"The Fantastic 4
+First Steps" -> "Avengers
+Doomsday"
+	edge [style=solid]
+	"Thunderbolts*" -> "Avengers
+Doomsday"
+	edge [style=solid]
+	"Shang-Chi
+and the
+Legend of the Ten Rings" -> "Avengers
+Doomsday"
+	edge [style=solid]
+	"Captain America
+Brave New World" -> "Avengers
+Doomsday"
+	edge [style=solid]
+	"Thor
+Love and Thunder" -> "Avengers
+Doomsday"
+	edge [style=solid]
+	"Black Panther
+Wakanda Forever" -> "Avengers
+Doomsday"
+	edge [style=dashed]
+	"Loki S2" -> "Avengers
+Doomsday"
+	edge [style=solid]
+	"Ant-Man and the Wasp
+Quantumania" -> "Avengers
+Doomsday"
+	edge [style=solid]
+	"Deadpool & Wolverine" -> "Avengers
+Doomsday"
+	edge [style=solid]
+	"Avengers
+Doomsday" -> "Avengers
+Secret Wars"
 }

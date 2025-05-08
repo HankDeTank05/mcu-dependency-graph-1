@@ -158,7 +158,7 @@ spidey_home2 = p.Movie("Spider-Man\nFar From Home",
 bw = p.Movie("Black Widow", datetime.date(2021, 7, 9))
 # TODO: add characters to black widow
 
-shang_chi = p.Movie("Shang-Chi\nand the\nLegend of the Ten Rings", datetime.date(2021, 9, 3))
+shang_chi = p.Movie("Shang-Chi and the\nLegend of the Ten Rings", datetime.date(2021, 9, 3))
 # TODO: add characters to shang chi
 
 eternals = p.Movie("Eternals", datetime.date(2021, 11, 5))
@@ -209,6 +209,69 @@ spidey_bnd = p.Movie("Spider-Man\nBrand New Day", datetime.date(2026, 7, 31))
 
 secret_wars = p.Movie("Avengers\nSecret Wars", datetime.date(2027, 5, 7))
 # TODO: add characters to secret wars
+
+# disney+ (phase 4)
+
+wandavision = p.Season("WandaVision", 1, datetime.date(2021, 1, 15))
+# TODO: add characters to wandavision
+
+tfatws = p.Season("The Falcon\n and the\nWinter Soldier", 1, datetime.date(2021, 3, 19))
+# TODO: add characters to tfatws
+
+loki_s1 = p.Season("Loki", 1, datetime.date(2021, 6, 9)) # nice
+# TODO: add characters to loki s1
+
+whatif_s1 = p.Season("What If...?", 1, datetime.date(2021, 8, 11))
+# TODO: add characters to what if s1
+
+hawkeye = p.Season("Hawkeye", 1, datetime.date(2021, 11, 24))
+# TODO: add characters to hawkeye s1
+
+moonknight = p.Season("Moon Knight", 1, datetime.date(2022, 3, 30))
+# TODO: add characters to moon knight s1
+
+msmarvel = p.Season("Ms. Marvel", 1, datetime.date(2022, 6, 8))
+# TODO: add characters to ms marvel s1
+
+shehulk = p.Season("She-Hulk\nAttorney at Law", 1, datetime.date(2022, 8, 18))
+# TODO: add characters to she hulk s1
+
+# disney+ (phase 5)
+
+secret_invasion = p.Season("Secret Invasion", 1, datetime.date(2023, 6, 21))
+# TODO: add characters to secret invasion
+
+loki_s2 = p.Season("Loki", 2, datetime.date(2023, 10, 5))
+# TODO: add characters to loki s2
+
+whatif_s2 = p.Season("What If...?", 2, datetime.date(2023, 12, 22))
+# TODO: add characters to what if s2
+
+whatif_s3 = p.Season("What If...?", 3, datetime.date(2024, 12, 22))
+# TODO: add characters to what if s3
+
+echo = p.Season("Echo", 1, datetime.date(2024, 1, 9))
+# TODO: add characters to echo s1
+
+agatha = p.Season("Agatha All Along", 1, datetime.date(2024, 9, 18))
+# TODO: add characters to agatha
+
+fnsm = p.Season("Your Friendly\nNeighborhood\nSpider-Man", 1, datetime.date(2025, 1, 29))
+# TODO: add characters to fnsm s1
+
+dd_bornagain = p.Season("Daredevil\nBorn Again", 1, datetime.date(2025, 3, 4))
+# TODO: add characters to daredevil born again s1
+
+ironheart = p.Season("Ironheart", 1, datetime.date(2025, 6, 24))
+# TODO: add characters to ironheart s1
+
+# disney+ (phase 6)
+
+wakanda = p.Season("Eyes of Wakanda", 1, datetime.date(2025, 8, 6))
+# TODO: add characters to eyes of wakanda s1
+
+zombies = p.Season("Marvel Zombies", 1, datetime.date(2025, 10, 3))
+# TODO: add characters to marvel zombies s1
 
 # netflix
 
@@ -329,5 +392,11 @@ projects: list[p.Project] = [
 	# phase 5
 	am3, guardians3, marvels, dp_n_wolv, cap4, tbolts,
 	# phase 6
-	f4, doomsday, spidey_bnd, secret_wars
+	f4, doomsday, spidey_bnd, secret_wars,
+	# disney+ (phase 4)
+	wandavision, tfatws, loki_s1, whatif_s1, hawkeye, moonknight, msmarvel, shehulk,
+	# disney+ (phase 5)
+	secret_invasion, loki_s2, whatif_s2, whatif_s3, echo, agatha, fnsm, dd_bornagain, ironheart,
+	# disney+ (phase 6)
+	wakanda, zombies
 ]

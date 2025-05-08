@@ -46,10 +46,13 @@ for dependency in ddata.dependencies:
 	# strong dependencies have a solid line
 	if dependency.get_connection_strength() == d.DEP_STRONG:
 		mcu.attr('edge', style='solid')
+
 	# weak dependencies have a dashed line
 	elif dependency.get_connection_strength() == d.DEP_WEAK:
 		mcu.attr('edge', style='dashed')
+
 	# create the edge
+	# if dependency.get_connection_strength() == d.DEP_STRONG:
 	mcu.edge(dependency.get_dependency_name(), dependency.get_depender_name())
 
 mcu.render(view=True)
