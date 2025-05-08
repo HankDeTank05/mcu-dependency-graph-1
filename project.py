@@ -20,6 +20,7 @@ TYPE_SEASON: str = 'season'
 
 class Project:
 
+	# specialized constructor
 	def __init__(self, name: str, release_date: datetime.date, type: str, timeline_placement: datetime.date | None):
 		self._name: str = name
 		self._release_date: datetime.date = release_date
@@ -40,6 +41,38 @@ class Project:
 		else:
 			self._timeline_placement: datetime.date = timeline_placement
 
+	# comparison operator overloads
+
+	# <
+	def __lt__(self, other) -> bool:
+		assert(isinstance(other, Project)) # crash if we're not comparing to another Project object
+		return self._release_date < other._release_date
+	
+	# >
+	def __gt__(self, other) -> bool:
+		assert(isinstance(other, Project)) # crash if we're not comparing to another Project object
+		return self._release_date > other._release_date
+	
+	# <=
+	def __le__(self, other) -> bool:
+		assert(isinstance(other, Project)) # crash if we're not comparing to another Project object
+		return self._release_date <= other._release_date
+	
+	# >=
+	def __ge__(self, other) -> bool:
+		assert(isinstance(other, Project)) # crash if we're not comparing to another Project object
+		return self._release_date >= other._release_date
+	
+	# ==
+	def __eq__(self, other) -> bool:
+		assert(isinstance(other, Project)) # crash if we're not comparing to another Project object
+		return self._release_date == other._release_date
+	
+	# !=
+	def __ne__(self, other) -> bool:
+		assert(isinstance(other, Project)) # crash if we're not comparing to another Project object
+		return self._release_date != other._release_date
+
 	# accessors
 
 	def get_name(self) -> str:
@@ -51,8 +84,20 @@ class Project:
 	def get_characters(self) -> dict[str, list[c.Character]]:
 		return copy.deepcopy(self._characters)
 
+	def get_character_count(self) -> int:
+		count: int = 0
+		for key in self._characters.keys():
+			count += len(self._characters[key])
+		return count
+
 	def get_events(self) -> dict[str, list[e.Event]]:
 		return copy.deepcopy(self._events)
+
+	def get_event_count(self) -> int:
+		count: int = 0
+		for key in self._events.keys():
+			count += len(self._events[key])
+		return count
 
 	def get_project_type(self) -> str:
 		return self._type

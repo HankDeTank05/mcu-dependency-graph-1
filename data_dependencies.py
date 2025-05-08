@@ -138,6 +138,10 @@ dependencies: list[d.Dependency] = [
 	# ph6 internal
 	d.Dependency(pdata.doomsday, pdata.secret_wars, d.DEP_STRONG),
 
+	# TODO: categorize these
+	d.Dependency(pdata.spidey_home3, pdata.shehulk, d.DEP_WEAK),
+	d.Dependency(pdata.shehulk, pdata.echo, d.DEP_WEAK),
+
 
 
 
